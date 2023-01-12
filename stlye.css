@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+nav.nav-bar {
+  background-color: rgba(53, 66, 74, 255);
+  color: white;
+  display: flex;
+  border-bottom: 0.2rem solid rgba(169, 80, 139, 255);
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+div.nav-right a {
+  text-decoration: none;
+  color: white;
+}
+
+div.nav-right a:active {
+  color: rgba(169, 79, 134, 255);
+  transform: scale(0.9);
+}
+
+div.nav-left span {
+  color: rgba(169, 79, 134, 255);
+}
+
+header.heading-container {
+  background-image: url(./img/showcase.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  min-height: 40vh;
+}
+section.subscribe {
+  background-color: rgba(53, 66, 74, 255);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+section.subscribe input {
+  padding: 0.4rem;
+  width: 13vw;
+  outline: none;
+}
+section.subscribe button {
+  padding: 0.5rem 0.8rem;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.98);
+}
+main.main-page1 {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+}
+.html-markup,
+.css-styling,
+.graphic-design {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.main-page1 p {
+  margin: 0 2rem;
+}
+
+main.main-page1 img {
+  width: 4vw;
+}
+main.main-page1 h4 {
+  padding: 1rem;
+}
+
+footer {
+  background-color: rgba(53, 66, 74, 255);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  padding: 1rem 0;
+}
+footer img {
+  width: 10vw;
+}
